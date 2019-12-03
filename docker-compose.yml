@@ -6,4 +6,4 @@ services:
       context: .
       dockerfile: ./Dockerfile.yml
       ports: 
-        - 8888:8888
+        - "8888:8888"
