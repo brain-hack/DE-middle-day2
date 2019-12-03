@@ -5,5 +5,5 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile.yml
-      ports: 
-        - "8888:8888"
+    ports: 
+      - "8888:8888"
